@@ -48,7 +48,7 @@ class FramedPhoto extends Photo{
     }
 }
 let newPhoto1  = new Photo(10,12);
-console.log(newPhoto1.price
+console.log(newPhoto1.price())
 console.log(newPhoto1.tostring());
 
 
