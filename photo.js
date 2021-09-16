@@ -44,7 +44,7 @@ class FramedPhoto extends Photo{
         return newPrice
     }
     tostring(){
-        return `This is a ${this.width} by ${this.height} ${this.material} framed photo.The style is ${this.style} and it costs $${this.price()}`
+        return `This is a ${this.width} by ${this.height} ${this.material} framed photo.The style is ${this.style} and it costs $git ${this.price()}`
     }
 }
 let newPhoto1  = new Photo(10,12);
